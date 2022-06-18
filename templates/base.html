@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Dog breed prediction website using machine learning. This website can successfully predict over 120 dogs breed.">
+	<link rel="icon" href="{{ url_for('static',filename='image/favicon.ico') }}" sizes="16x16" type="image/*">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/main.css') }}">
+
+    <title>Dogs Breed Prediction</title>
+</head>
+<body>
+    <nav>
+        <div class="container border-top p-1 pb-2">
+            <a href="{{ url_for('index') }}" class="h4 font-inherit pr-2">Home</a>
+            <span class="h4 font-inherit"> | </span>
+        </div>
+        <div class="w-100 border-top"></div>
+    </nav>
+    {% block content %}
+    {% endblock %}
+</body>
+</html>
+
+{#java script#}
+<script src="{{ url_for('static',filename='js/jquery.min.js') }}"></script>
+<script src="{{ url_for('static',filename='js/popper.min.js') }}"></script>
+<script src="{{ url_for('static',filename='js/bootstrap.min.js') }}"></script>

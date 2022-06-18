@@ -1,0 +1,7 @@
+# www.robotstxt.org/
+
+User-agent: *
+Disallow: /static
+Disallow: /*.txt
+Disallow: /.idea
+Disallow: /.gitignore
