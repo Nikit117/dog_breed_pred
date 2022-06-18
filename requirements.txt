@@ -4,8 +4,6 @@ Pillow==7.2.0
 gunicorn==20.0.4
 numpy==1.18.5
 tensorboard==2.9.1
-tensorboard-data-server==0.6.1
-tensorboard-plugin-wit==1.8.1
 tensorflow==2.9.1
 tensorflow-estimator==2.9.0
 tensorflow-hub==0.12.0
