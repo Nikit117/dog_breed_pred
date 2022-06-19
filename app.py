@@ -120,4 +120,4 @@ def exception(ex):
 
 if __name__ == '__main__':
     print('Loading Keras Model.')
-    app.run(debug=False,host='0.0.0.0')
+    app.run()
